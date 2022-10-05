@@ -1,0 +1,778 @@
+/* ================================ MENU ================================== */
+* {padding: 0; margin: 0;}
+
+nav
+{
+    background-color: white;
+    width: 1600px;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    margin: auto;
+}
+
+nav ul h1
+{
+    padding-bottom: 12px;
+    padding-right: 78px;
+    font-size: 35px;
+    float: left;
+}
+nav ul li
+{
+    float:left;
+    list-style: none;
+    font-size: 18px;
+}
+
+nav ul li a
+{
+    margin-right: 15px;
+    text-decoration: none;
+    color:black;
+    height: 100px;
+    padding: 12px;
+}
+
+h2
+{
+    font-size: 17px;
+    float: left;
+    padding-left: 250px;
+    padding-right: 40px;
+}
+
+.notelp
+{
+    font-size: 17px;
+    float: left;
+    padding-left: 250px;
+    margin-left: 150px;
+    padding-right: 40px;
+}
+
+nav ul li ul
+{
+    display: block;
+}
+
+.pages
+{
+    display: inline-block;
+    position: absolute;
+    left: 43%;
+    line-height: 50px;
+    padding-top: 24px;
+}
+
+.pages a, .blog a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.blog
+{
+    display: inline-block;
+    position: absolute;
+    left: 48%;
+    line-height: 50px;
+    padding-top: 24px;
+}
+
+.pgs, .blg
+{
+    display: none;
+    background-color: white;
+    width: 170px;
+    line-height: 40px;
+    padding: 12px 16px;
+    margin-left: -10px;
+    z-index: 1;
+}
+
+.apgs 
+{
+    font-size: 5px;
+}
+.pages:hover > .pgs
+{
+    display: block;
+}
+
+.blog:hover >.blg
+{
+    display: block;
+}
+
+.pages a:hover, .blog a:hover
+{
+    color:cadetblue;
+}
+
+.pgs, .blg
+{
+    display: none;
+    position: absolute;
+}
+
+img
+{   
+    padding-top: 20px;
+    float: left;
+    width: 60px;
+    height: 60px;
+    padding-left: 40px;
+}
+
+nav ul li ul li
+{
+    float: none;
+    position: absolute;
+}
+
+nav ul li a:hover
+{
+    color:cadetblue;
+}
+
+
+nav ul li ul li a
+{
+    background-color: white;
+    width: 190px;
+    float: none;
+    top: 0;
+    position: absolute;
+}
+
+nav ul li ul li
+{
+    top: 0;
+    width: 200px;
+} 
+
+nav .logo img
+{
+    width: 15px;
+    height: 15px;
+    padding-top: 41px;
+    margin-left: -15px;
+}
+
+nav .red
+{
+    height: 100px;
+    width: 100px;
+    margin-top: -20px;
+    float: left;
+    margin-left: 5px;
+}
+
+nav ul li ul li a
+{
+    width: 170px;
+    height:30px;
+    top: 0;
+}   
+
+/* ================================ MENU ================================== */
+
+/* =============================== FOTO TAMPILAN ====================================== */
+.fototampilan
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    height: max-content;
+}
+
+.centered 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    margin-top: 250px;
+    font-family: "Lucida Handwriting", "cursive";
+}
+.centered p
+{
+    margin-top: 8px;
+    font-size: 18px;
+    font-family: "Rubik",sans-serif;
+}
+.sg
+{
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin-left: -40px;
+    margin-top: -35px;
+    clip-path: inset(0px 0px 330px 0px);
+    position: relative;
+}
+/* =============================== FOTO TAMPILAN ====================================== */
+
+
+/* ============================== BLOG =================================== */
+.blogweb
+{
+    float: left;
+    width: 1500px;
+    height: 2000px;
+    margin-top: -300px;
+}
+
+.blog1
+{
+    float: left;
+    width: 780px;
+    height: max-content;
+    box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.2);
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.blog1 img
+{
+    float: left;
+    height: 360px;
+    width: 700px;
+    position: relative;
+}
+
+.blog1 .judul a h2
+{
+    float: left;
+    width: 640px;
+    margin-left: -175px;
+    margin-top: 40px;
+    font-size: 27px;
+    color: black;
+}
+
+.blog1 .judul a h2:hover
+{
+    color: red;
+}
+
+.blog1 .text
+{
+    float: left;
+    width: 600px;
+    text-align: left;
+    margin-left: 78px;
+    margin-top: 10px;
+    padding-top: 8px;
+    color: grey;
+    font-size: 16px;
+}
+
+.blog1 .info a
+{
+    float: left;
+    margin-left: 78px;
+    margin-top: 33px;
+    color: grey;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: grey;
+}
+
+.blog1 .info a:hover
+{
+    color: red;
+}
+
+.tggl input
+{
+    width: 90px;
+    height: 85px;
+    background-color: rgb(253, 78, 78);
+    border: none;
+    color: white;
+    position: absolute;
+    float: left;
+    margin-top: 320px;
+    margin-left: -662px;
+    font-size: 20px;
+    border-radius: 9%;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.tggl input:hover
+{
+    background-color: transparent;
+    color: red;
+}
+
+/* =================================== BLOG ======================================== */
+
+
+.keyword
+{
+    width: 400px;
+    height: 300px;
+    float: left ;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+input[type="text"]
+{
+    float: left;
+    width: 275px;
+    height: 48px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 13px 1px rgba(0,0,0,0.2);
+    border: none;
+    padding-left: 15px;
+}
+
+input[name="search"]
+{
+    float: left;
+    margin-left: px;
+    width: 290px;
+    height: 55px;
+    border: none;
+    color: white;
+    background-color: rgb(121, 207, 210);
+    font-size: 16px;
+    margin-top: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+input[name="search"]:hover
+{
+    background-color:rgb(253, 78, 78);;
+}
+
+
+.catego
+{
+    width: 350px;
+    height: 493.5px;
+    float: left;
+    margin-left: 50px;
+    margin-top: -330px;
+    background-color: rgb(248, 248, 248);
+    border: 0.4px solid rgb(205, 205, 205);
+}
+
+.catego h2
+{
+    float: left;
+    text-align: center;
+    font-size: 22px;
+    margin-left: -370px;
+    margin-top: 20px;
+    width: 380px;
+    margin-bottom: 40px;
+    padding-top: 8px;
+}
+
+.catego .c1
+{
+    float: left;
+    width: 326px;
+    height: 65px;
+    border: 0.3px solid rgb(205, 205, 205);
+    padding-left: 24px;
+}
+
+.catego .c1 a 
+{
+    padding-top: 32px;
+    text-decoration: none;
+    color: grey;
+}
+
+.catego .c1 a p
+{
+    padding-top: 22px;
+}
+
+.catego .c1 a p:hover
+{
+    color: rgb(226, 102, 102);
+}
+
+.recentpost
+{
+    width: 350px;
+    height: 493.5px;
+    float: left;
+    margin-left: 50px;
+    margin-top: -450px;
+    background-color: rgb(248, 248, 248);
+    border: 0.4px solid rgb(205, 205, 205);
+}
+
+.recentpost h2
+{
+    float: left;
+    text-align: center;
+    font-size: 22px;
+    margin-left: -370px;
+    margin-top: 20px;
+    width: 380px;
+    margin-bottom: 40px;
+    padding-top: 8px;
+}
+
+.recentpost .c1
+{
+    float: left;
+    width: 290px;
+    height: 65px;
+    padding-left: 38px;
+    margin-bottom: 32px;
+}
+
+.recentpost img
+{
+    float: left;
+    margin-top: -17px;
+    margin-left: -62px;
+    padding-bottom: 30px;
+    width: 76px;
+    height: 76px;
+}
+
+.recentpost .c1 p
+{
+    float: left;
+    padding-top: 14px;
+    padding-left: 17px;
+    color: grey;
+}
+
+.recentpost .c1 a p
+{
+    float: left;
+    color: Black;
+    text-decoration: none;
+}
+
+.recentpost .c1 a p:hover
+{
+    color:  rgb(226, 102, 102);
+}
+
+.tagc
+{
+    width: 350px;
+    height: 270px;
+    float: left;
+    margin-left: 50px;
+    margin-top: -560px;
+    background-color: rgb(248, 248, 248);
+    border: 0.4px solid rgb(205, 205, 205);
+}
+
+.tagc h2
+{
+    float: left;
+    text-align: center;
+    font-size: 22px;
+    margin-left: -370px;
+    margin-top: 20px;
+    width: 380px;
+    margin-bottom: 40px;
+    padding-top: 8px;
+}
+
+.tag1
+{
+    width: 300px;
+    height: 40px;
+    float: left;
+    padding-left: 20px;
+}
+
+.tag2
+{
+    width: 220px;
+    height: 40px;
+    float: left;
+    padding-left: 20px;
+}
+
+.tag3
+{
+    width: 220px;
+    height: 40px;
+    float: left;
+    padding-left: 20px;
+}
+
+.tag4
+{
+    width: 220px;
+    height: 40px;
+    float: left;
+    padding-left: 20px;
+}
+
+.tagc a
+{
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    width: max-content;
+    border: 1px solid darkgrey;
+    padding: 6px 8px 6px 8px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.tagc a:hover
+{
+    color: white;
+    background-color: rgb(226, 102, 102);;
+}
+
+.topg
+{
+    width: 350px;
+    height: 320px;
+    float: left;
+    margin-left: 50px;
+    margin-top: -220px;
+    background-color: rgb(248, 248, 248);
+    border: 0.4px solid rgb(205, 205, 205);
+}
+
+.topg h2
+{
+    float: left;
+    text-align: center;
+    font-size: 22px;
+    margin-left: -340px;
+    margin-top: 20px;
+    width: 380px;
+    margin-bottom: 28px;
+    padding-top: 8px;
+}
+
+.topig
+{
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding-left: 8px;
+}
+.topg img
+{
+    width: 88px;
+    height: 88px;
+    float: left;
+    margin-left: -29px;
+}
+
+.newz
+{
+    width: 400px;
+    height: 300px;
+    float: left ;
+    margin-top: -480px;
+    margin-left: 50px;
+}
+
+.newz h2
+{
+    float: left;
+    text-align: center;
+    font-size: 22px;
+    margin-left: -386px;
+    margin-top: px;
+    width: 380px;
+    margin-bottom: 28px;
+    padding-top: 8px;
+}
+
+
+footer
+{
+    float: left;
+    width: 100%;
+    height: 510px;
+    padding-left: 200px;
+    background-color: rgb(25, 25, 57);
+    padding-top: 60px;
+    margin-top: 1640px;
+}
+
+.top1
+{
+    width: 220px;
+    height: 300px;
+    float: left;
+}
+
+.top1 p
+{
+    float: left;
+    width: 220px;
+    color: grey;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 5px;
+
+}
+
+.top1 .traa
+{
+    width: 140px;
+    height: 44px;
+    float: left;
+    margin-left: -50px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.top1 a img
+{
+    width: 20px;
+    height: 20px;
+    margin-left: -32px;
+    margin-right: 20px;
+    margin-top: 27px;
+}
+
+.top2
+{
+    width: 220px;
+    height: 300px;
+    float: left;
+    margin-left: 130px;
+}
+
+.top2 h4
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.top2 a
+{
+    float: left;
+    width: 220px;
+    color: grey;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.top2 a:hover
+{
+    color: red;
+}
+
+.top3
+{
+    width: 220px;
+    height: 0px;
+    float: left;
+}
+
+.top3 h4
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.top3 a
+{
+    float: left;
+    width: 220px;
+    color: grey;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.top3 a:hover
+{
+    color: red;
+}
+
+.top3 .pd1
+{
+    float: left;
+    height: 50px;
+}
+
+.top3 .pd2
+{
+    float: left;
+    height: 50px;
+    margin-left: 130px;
+    margin-top: -50px;
+}
+
+.top4
+{
+    width: 320px;
+    height: 200px;
+    float: left;
+    margin-left: 300px;
+}
+
+.top4 h4
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding-right: 150px;
+    float: left;
+}
+
+.top4 .igfoot
+{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-left: -27px;
+    margin-top: -20px;
+}
+
+.top4 .igfoot img
+{
+    width: 70px;
+    height: 70px;
+    margin-left: -20px;
+    border-radius: 7%;
+}
+
+.bottom
+{
+    width: 1000px;
+    position: relative;
+}
+
+.bottom .last 
+{
+    float: left;
+    position: absolute;
+    color: grey;
+    margin-top: 420px;
+    margin-left: 200px;
+}
+
+.bottom p
+{
+    margin-left: -210px;
+    margin-bottom: 20px;
+}

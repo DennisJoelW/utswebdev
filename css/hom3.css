@@ -1,0 +1,1428 @@
+* {padding: 0; margin: 0;}
+
+
+
+body
+{
+    background-color: white;
+    height: 1000px; 
+}
+
+
+/* ================================ MENU ================================== */
+nav
+{
+    background-color: white;
+    width: 1600px;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    margin: auto;
+}
+
+nav ul h1
+{
+    padding-bottom: 12px;
+    padding-right: 78px;
+    font-size: 35px;
+    float: left;
+}
+nav ul li
+{
+    float:left;
+    list-style: none;
+    font-size: 18px;
+}
+
+nav ul li a
+{
+    margin-right: 15px;
+    text-decoration: none;
+    color:black;
+    height: 100px;
+    padding: 12px;
+}
+
+h2
+{
+    font-size: 17px;
+    float: left;
+    padding-left: 250px;
+    padding-right: 40px;
+}
+
+.notelp
+{
+    font-size: 17px;
+    float: left;
+    padding-left: 250px;
+    margin-left: 150px;
+    padding-right: 40px;
+}
+
+nav ul li ul
+{
+    display: block;
+}
+
+.pages
+{
+    display: inline-block;
+    position: absolute;
+    left: 43%;
+    line-height: 50px;
+    padding-top: 24px;
+}
+
+.pages a, .blog a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.blog
+{
+    display: inline-block;
+    position: absolute;
+    left: 48%;
+    line-height: 50px;
+    padding-top: 24px;
+}
+
+.pgs, .blg
+{
+    display: none;
+    background-color: white;
+    width: 170px;
+    line-height: 40px;
+    padding: 12px 16px;
+    margin-left: -10px;
+    z-index: 1;
+}
+
+.apgs 
+{
+    font-size: 5px;
+}
+.pages:hover > .pgs
+{
+    display: block;
+}
+
+.blog:hover >.blg
+{
+    display: block;
+}
+
+.pages a:hover, .blog a:hover
+{
+    color:cadetblue;
+}
+
+.pgs, .blg
+{
+    display: none;
+    position: absolute;
+}
+
+img
+{   
+    padding-top: 20px;
+    float: left;
+    width: 60px;
+    height: 60px;
+    padding-left: 40px;
+}
+
+nav ul li ul li
+{
+    float: none;
+    position: absolute;
+}
+
+nav ul li a:hover
+{
+    color:cadetblue;
+}
+
+
+nav ul li ul li a
+{
+    background-color: white;
+    width: 190px;
+    float: none;
+    top: 0;
+    position: absolute;
+}
+
+nav ul li ul li
+{
+    top: 0;
+    width: 200px;
+} 
+
+nav .logo img
+{
+    width: 15px;
+    height: 15px;
+    padding-top: 41px;
+    margin-left: -15px;
+}
+
+nav .red
+{
+    height: 100px;
+    width: 100px;
+    margin-top: -20px;
+    float: left;
+    margin-left: 5px;
+}
+
+nav ul li ul li a
+{
+    width: 170px;
+    height:30px;
+    top: 0;
+}   
+
+/* ================================ MENU ================================== */
+
+
+
+/* =============================== FOTO TAMPILAN ====================================== */
+.fototampilan
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+.centered 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    margin-top: 270px;
+    font-family: "Lucida Handwriting", "cursive";
+}
+.centered p
+{
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: "Rubik",sans-serif;
+}
+
+
+
+.bali
+{
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin-left: -40px;
+    margin-top: -35px;
+    clip-path: inset(100px 0px 280px 0px);
+    margin-top: -113px;
+}
+/* =============================== FOTO TAMPILAN ====================================== */
+
+
+
+/* ================================ FORM WHERE YOU WANT TO GO =====================================*/
+.mokemana p
+{   
+    float: left;
+    margin-left: 210px;
+    font-size: 28px;
+    color: white;
+    margin-top: 50px;
+}
+
+.mokemana
+{   
+    float: left ;
+    width: 100%;
+    text-align: center;
+    height: 145px;
+    background-color:rgb(30, 30, 47);
+    margin-top: -280px;
+    margin-bottom: 240px;
+}
+
+.mokemana input[type="text"]
+{
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin-top: 43px;
+    margin-left: 40px;
+    padding-left: 10px;
+    background-color: rgb(30, 30, 47);
+    color: white;
+    border: 0.5px solid white;
+}
+
+select
+{
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin-top: 43px;
+    margin-left: 20px;
+    padding-left: 10px;
+    background-color: rgb(30, 30, 47);
+    color: whitesmoke;
+    border: 0.5px solid whitesmoke;
+}
+
+.mokemana input[name="search1"]
+{
+    margin-left: 18px;
+    float: left;
+    background-color: rgb(226, 63, 63);
+    border: none;
+    margin-top: 40px;
+    height: 51px;
+    width: 130px;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 16px;
+    padding-bottom: 2px;
+    cursor: pointer;
+
+}
+
+.mokemana input[name="search1"]:hover
+{
+    background-color: rgb(27, 207, 207);
+}
+
+/* ================================ FORM WHERE YOU WANT TO GO =====================================*/
+
+
+
+
+/* =================================== POPULAR DESTINATION ======================================*/
+.popular
+{
+    float: left;
+    width: 1100px;
+    height: 300px;
+    margin-top: -100px;
+}
+
+.popular .pop
+{   
+    float: left;
+    text-align: center;
+    font-size: 38px;
+    padding-left: 600px;
+    font-family: "Monaco","monospace";
+}
+
+.popular .pop2
+{
+    float: left;
+    text-align: center;
+    padding-left: 540px;
+    padding-right: 110px;
+    color: grey;
+}
+/* =================================== POPULAR DESTINATION ======================================*/
+
+
+
+
+/* =================================== 6 COUNTRIES PICTURE =============================================*/
+
+
+.foto6
+{
+    float: left;
+    width: 1300px;
+    height: 800px;
+    margin-left: 230px;
+    position: relative;
+    margin-top: -170px;
+}
+
+.jpnslot
+{
+    transition: transform 0.3s ease;
+}
+
+.japan, .sg, .london, .italy, .brazil, .korea
+{
+    width: 330px;
+    height: 250px;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10%;
+    transition: transform 0.3s ease;
+    transform: translateX(0px);
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.japan:hover, .sg:hover, .london:hover, .italy:hover, .brazil:hover, .korea:hover
+{
+    transform:translate(10px);
+
+}
+
+.jpnslot .judul
+{
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    left: 3%;
+    top: 27%;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.sgslot .judul
+{
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    top: 27%;
+    left: 30.5%;
+    font-weight: bold;
+}
+
+.lonslot .judul
+{
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    top: 27%;
+    left: 59%;
+    font-weight: bold;
+}
+
+.italyslot .judul
+{
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    top: 61.4%;
+    left: 3%;
+    font-weight: bold;
+}
+
+.brslot .judul
+{
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    top: 61.4%;
+    left: 30.5%;
+    font-weight: bold;
+}
+
+.krslot .judul
+{
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    top: 61.4%;
+    left: 59%;
+    font-weight: bold;
+}
+
+.jpnslot .places
+{
+    position: absolute;
+    top: 23%;
+    left: 7%;
+}
+
+.sgslot .places
+{
+    position: absolute;
+    top: 23%;
+    left: 38.4%;
+}
+
+.lonslot .places
+{
+    position: absolute;
+    top: 23%;
+    left: 64.6%;
+}
+
+.italyslot .places
+{
+    position: absolute;
+    top: 57%;
+    left: 5.8%;
+}
+
+.brslot .places
+{
+    position: absolute;
+    top: 57%;
+    left: 35%;
+}
+
+.krslot .places
+{
+    position: absolute;
+    top: 57%;
+    left: 63.2%;
+}
+
+.places input
+{
+    margin-left: 18px;
+    float: left;
+    background-color:rgb(27, 207, 207);
+    border: none;
+    margin-top: 40px;
+    height: 25px;
+    width: 85px;
+    color: white;
+    text-align: center;
+    border-radius: 14px;
+    font-size: 12px;
+    padding-bottom: 2px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+input[type="submit"]:hover
+{
+    background-color: rgb(226, 63, 63);
+}
+
+.jpnslot:hover .judul
+{
+    color: rgb(226, 63, 63);
+    transform:translate(10px);
+}
+
+.jpnslot:hover input[type="submit"]
+{
+    background-color: rgb(226, 63, 63);
+    transform:translate(10px);
+}
+
+.sgslot:hover .judul
+{
+    color: rgb(226, 63, 63);
+    transform:translate(10px);
+}
+
+.sgslot:hover input[type="submit"]
+{
+    background-color: rgb(226, 63, 63);
+    transform:translate(10px);
+}
+
+.lonslot:hover .judul
+{
+    color: rgb(226, 63, 63);
+    transform:translate(10px);
+}
+
+.lonslot:hover input[type="submit"]
+{
+    background-color: rgb(226, 63, 63);
+    transform:translate(10px);
+}
+
+.italyslot:hover .judul
+{
+    color: rgb(226, 63, 63);
+    transform:translate(10px);
+}
+
+.italyslot:hover input[type="submit"]
+{
+    background-color: rgb(226, 63, 63);
+    transform:translate(10px);
+}
+
+.brslot:hover .judul
+{
+    color: rgb(226, 63, 63);
+    transform:translate(10px);
+}
+
+.brslot:hover input[type="submit"]
+{
+    background-color: rgb(226, 63, 63);
+    transform:translate(10px);
+}
+
+.krslot:hover .judul
+{
+    color: rgb(226, 63, 63);
+    transform:translate(10px);
+}
+
+.krslot:hover input[type="submit"]
+{
+    background-color: rgb(226, 63, 63);
+    transform:translate(10px);
+}
+
+/* =================================== 6 COUNTRIES PICTURE =============================================*/
+
+
+/* ========================== Subscribe our News =========================== */
+.subs
+{
+    float: left;
+    width: 1600px;
+    height: 200px;
+    background-color: rgb(66, 66, 89);
+    margin-top: -90px;
+}
+
+.stext
+{
+    float: left;
+    margin-left: 290px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 70px;
+}
+
+.stext2
+{
+    margin-left: 290px;
+    color: grey;
+    font-size: 18px;
+    margin-top: 110px;
+}
+
+.subs input[name="mail"]
+{
+    float: left;
+    margin-top: -52px;
+    margin-left: 700px;
+    width: 380px;
+    height: 48px;
+    padding-left: 10px;
+    color: grey;
+    border-radius: 8px;
+}
+
+.subs input[name="subscribe"]
+{
+    margin-left: 1105px;
+    float: left;
+    background-color: rgb(226, 63, 63);
+    border: none;
+    margin-top: -51px;
+    height: 51px;
+    width: 140px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 16px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.subs input[name="subscribe"]:hover
+{
+    background-color: rgb(27, 207, 207);
+}
+
+/* ========================== Subscribe our News =========================== */
+
+/* ========================= popular places ====================== */
+.poplaces
+{
+    float: left;
+    width: 1100px;
+    height: 300px;
+    margin-top: 140px;
+    margin-right: 200px;
+}
+
+.poplaces .popl
+{   
+    float: left;
+    text-align: center;
+    font-size: 38px;
+    padding-left: 550px;
+}
+
+.poplaces .popl2
+{
+    float: left;
+    text-align: center;
+    padding-left: 530px;
+    padding-right: 100px;
+    color: grey;
+}
+
+/* ========================= popular places ====================== */
+
+
+/* ========================= popular places picture ====================== */
+.ind
+{
+    float: left;
+    width: 1400px;
+    height: 1000px;
+    padding-right: 200px;
+    padding-left: 230px;
+    margin-top: -150px;
+    position: relative;
+}
+
+.ind h1
+{
+    float: left;
+    text-align: left;
+    padding-left: 60px;
+    font-size: 20px;
+    padding-right: 60px;
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+.ind .bali2 h1
+{
+    float: left;
+    text-align: left;
+    padding-right: 120px;
+}
+
+.ind h4
+{
+    float: left;
+    text-align: left;
+    padding-left: 60px;
+    color: grey;
+    padding-top: 8px;
+}
+
+.papua
+{
+    margin-right: 100px;
+}
+.monas, .bali2, .papua
+{
+    width: 340px;
+    height: 250px;
+    float: left;
+}
+
+.bintan, .candi, .bromo
+{
+    width: 340px;
+    height: 250px;
+    float: left;
+    margin-top: 50px;
+}
+
+.monaspic, .balipic, .papuapic, .bintanpic, .candipic, .bromopic
+{
+    width: 310px;
+    height: 180px;
+    float: left;
+    position: relative;
+}
+
+.places2 input
+{
+    margin-left: 18px;
+    float: left;
+    background-color: rgb(27, 207, 207);
+    border: none;
+    margin-top: 40px;
+    height: 25px;
+    width: 85px;
+    color: white;
+    text-align: center;
+    border-radius: 14px;
+    font-size: 12px;
+    padding-bottom: 2px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.monas:hover h1
+{
+    color:  rgb(226, 63, 63);
+}
+
+.monas:hover .places2 input
+{
+    background-color: rgb(226, 63, 63);
+}
+
+.bali2:hover h1
+{
+    color:  rgb(226, 63, 63);
+}
+
+.bali2:hover .places2 input
+{
+    background-color: rgb(226, 63, 63);
+}
+
+.papua:hover h1
+{
+    color:  rgb(226, 63, 63);
+}
+
+.papua:hover .places2 input
+{
+    background-color: rgb(226, 63, 63);
+}
+
+.bintan:hover h1
+{
+    color:  rgb(226, 63, 63);
+}
+
+.bintan:hover .places2 input
+{
+    background-color: rgb(226, 63, 63);
+}
+
+.candi:hover h1
+{
+    color:  rgb(226, 63, 63);
+}
+
+.candi:hover .places2 input
+{
+    background-color: rgb(226, 63, 63);
+}
+
+.bromo:hover h1
+{
+    color:  rgb(226, 63, 63);
+}
+
+.bromo:hover .places2 input
+{
+    background-color: rgb(226, 63, 63);
+}
+
+.monas .places2
+{
+    position: absolute;
+    left: 14.4%;
+    top: 0.1%;
+}
+
+.bali2 .places2
+{
+    position: absolute;
+    left: 33%;
+    top: 0.1%;
+}
+
+.papua .places2
+{
+    position: absolute;
+    left: 51.8%;
+    top: 0.1%;
+}
+
+.bintan .places2
+{
+    position: absolute;
+    left: 14.4%;
+    top: 30%;
+}
+
+.candi .places2
+{
+    position: absolute;
+    left: 33%;
+    top: 30%;
+}
+
+.bromo .places2
+{
+    position: absolute;
+    left: 51.8%;
+    top: 30%;
+}
+/* ========================= popular places picture ====================== */
+
+.ind .morplace
+{
+    background-color: rgb(248, 65, 65);;
+    border: 1px solid rgb(248, 65, 65);;
+    border-radius: 8px;
+    width: 170px;
+    height: 50px;
+    float: left;
+    margin-top: 400px;
+    margin-left: -580px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ind .morplace:hover
+{
+    background-color: rgb(27, 207, 207);;
+    border: 1px solid rgb(27, 207, 207);;
+} 
+
+/* ======================== VIDEO ========================= */
+
+.vidweb
+{
+    width: 1570px;
+    height: 440px;
+    float: left;
+    position: relative;
+}
+.vidweb h3
+{
+    float: left;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    font-family: "Lucida Handwriting", "cursive";
+    margin-top: -73px;
+    font-size: 30px;
+    margin-left: 410px;
+}
+.vidweb img
+{
+    margin-top: -440px;
+    margin-left: -40px;
+    width: 1570px;
+    height: 890px;
+    clip-path: inset(200px 0px 260px 0px);
+    float: left;
+    z-index: 3;
+
+}
+
+
+.vidweb a .gplay
+{
+    z-index: 2;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-left: 694px;
+    margin-top: -485px;
+}
+
+/* ======================== VIDEO ========================= */
+
+/* ====================== BENEFITS ========================= */
+.benefits
+{
+    width: 1500px;
+    height: 400px;
+    margin-top: -240px;
+    margin-left: 90px;
+    float: left;
+}
+
+.benefits .comfy p
+{
+    margin-top: 300px;
+    margin-left: -240px;
+    font-size: 15px;
+    float: left;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: grey;
+}
+
+.benefits .comfy h4
+{
+    float: left;
+    width: 200px;
+    margin-top: 270px;
+    font-size: 18px;
+    margin-left: -110px;
+}
+
+.benefits .comfy .comfypic
+{   
+    width: 50px;
+    height: 50px;
+    margin-left: 300px;
+    float: left;
+    padding-top: 200px;
+}
+
+.benefits .luxury h4
+{
+    float: left;
+    width: 200px;
+    margin-top: 270px;
+    font-size: 18px;
+    margin-left: -84px;
+
+}
+
+.benefits .luxury p
+{
+    margin-top: 300px;
+    margin-left: -270px;
+    font-size: 15px;
+    float: left;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: grey;
+}
+
+.benefits .luxury .luxurypic
+{
+    padding-top: 190px;
+    float: left;
+    width: 55px;
+    height: 55px;
+    margin-left: 120px;
+}
+
+.benefits .travel img
+{
+    padding-top: 190px;
+    float: left;
+    width: 55px;
+    height: 55px;
+    margin-left: 110px;
+}
+
+.benefits .travel h4
+{
+    float: left;
+    width: 200px;
+    margin-top: 270px;
+    font-size: 18px;
+    margin-left: -76px;
+}
+
+.benefits .travel p
+{
+    margin-top: 300px;
+    margin-left: -270px;
+    font-size: 15px;
+    float: left;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: grey;
+}
+
+/* ====================== BENEFITS ========================= */
+
+
+/* ====================== QUOTES ====================== */
+.quotes
+{
+    width: 100%;
+    float: left;
+    margin-left: 300px;
+    background-color: white;
+    margin-top: 120px;
+    margin-bottom:100px;
+}
+
+.quotes img
+{
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    padding-left: 400px;
+}
+
+.quotes h4
+{
+    margin-top: 180px;
+    margin-left: 282px;
+    font-size: 18px;
+}
+
+.quotes p
+{
+    margin-left: 438px;
+    margin-top: 20px;
+    font-size: 17px;
+    color: grey;
+}
+
+  
+  /* GENERAL STYLES */
+  
+  .pagination{
+    padding: 30px 0;
+  }
+  
+  .pagination ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .pagination a{
+    display: inline-block;
+    padding: 10px 18px;
+    color: #222;
+  }
+
+  
+  /* FOUR */
+  
+  .p4 a{
+    width: 20px;
+    height: 20px;
+    line-height: 40px;
+    border-radius: 100%;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    border: 3px solid grey;
+  }
+  
+  .p4 .is-active:before{
+    content: "";
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    background-color: rgb(229, 114, 114);
+    position: absolute;
+    top: 3px;
+    left: 3px;
+  }
+
+  .p4
+  {
+    margin-left: 422px;
+  }
+
+/* ====================== QUOTES ====================== */
+
+.recent
+{
+    float: left;
+    width: 100%;
+    height: 580px;
+    margin-top: 130px;
+    margin-left: -10px;
+    background-color: rgb(223, 223, 223);
+}
+.recent h1
+{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.recent .recent1
+{
+    float: left;
+    width: 400px;
+    height: 300px;
+    padding-left: 170px;
+}
+
+.recent1 img
+{
+    width: 350px;
+    height: 240px;
+    float: left;
+}
+
+.recent1 p
+{
+    margin-left: 40px;
+    padding-top: 20px;
+    float: left;
+    color: grey;
+}
+
+.recent1 h4
+{
+    float: left;
+    margin-top: 45px;
+    font-size: 27px;
+    margin-left: -90px;
+}
+
+.recent .recent2
+{
+    float: left;
+    width: 400px;
+    height: 300px;
+}
+
+.recent2 img
+{
+    width: 350px;
+    height: 240px;
+    float: left;
+}
+
+.recent2 p
+{
+    margin-left: 40px;
+    padding-top: 20px;
+    float: left;
+    color: grey;
+}
+
+.recent2 h4
+{
+    float: left;
+    margin-top: 45px;
+    font-size: 27px;
+    margin-left: -90px;
+}
+
+.recent .recent3
+{
+    float: left;
+    width: 400px;
+    height: 300px;
+}
+
+.recent3 img
+{
+    width: 350px;
+    height: 240px;
+    float: left;
+}
+
+.recent3 p
+{
+    margin-left: 40px;
+    padding-top: 20px;
+    float: left;
+    color: grey;
+}
+
+.recent3 h4
+{
+    float: left;
+    margin-top: 45px;
+    font-size: 27px;
+    margin-left: -90px;
+}
+
+.recent1:hover h4
+{
+    color: rgb(196, 54, 54);
+}
+
+
+.recent2:hover h4
+{
+    color: rgb(196, 54, 54);
+}
+
+
+.recent3:hover h4
+{
+    color: rgb(196, 54, 54);
+}
+
+
+/* ======================== FAMOUS TRIPS ========================= */
+
+
+footer
+{
+    float: left;
+    width: 100%;
+    height: 510px;
+    padding-left: 200px;
+    background-color: rgb(25, 25, 57);
+    padding-top: 60px;
+}
+
+.top1
+{
+    width: 220px;
+    height: 300px;
+    float: left;
+}
+
+.top1 p
+{
+    float: left;
+    width: 220px;
+    color: grey;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 5px;
+
+}
+
+.top1 .traa
+{
+    width: 140px;
+    height: 44px;
+    float: left;
+    margin-left: -50px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.top1 a img
+{
+    width: 20px;
+    height: 20px;
+    margin-left: -32px;
+    margin-right: 20px;
+    margin-top: 27px;
+}
+
+.top2
+{
+    width: 220px;
+    height: 300px;
+    float: left;
+    margin-left: 130px;
+}
+
+.top2 h4
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.top2 a
+{
+    float: left;
+    width: 220px;
+    color: grey;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.top2 a:hover
+{
+    color: red;
+}
+
+.top3
+{
+    width: 220px;
+    height: 0px;
+    float: left;
+}
+
+.top3 h4
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.top3 a
+{
+    float: left;
+    width: 220px;
+    color: grey;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.top3 a:hover
+{
+    color: red;
+}
+
+.top3 .pd1
+{
+    float: left;
+    height: 50px;
+}
+
+.top3 .pd2
+{
+    float: left;
+    height: 50px;
+    margin-left: 130px;
+    margin-top: -50px;
+}
+
+.top4
+{
+    width: 320px;
+    height: 200px;
+    float: left;
+    margin-left: 300px;
+}
+
+.top4 h4
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding-right: 150px;
+    float: left;
+}
+
+.top4 .igfoot
+{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-left: -27px;
+    margin-top: -20px;
+}
+
+.top4 .igfoot img
+{
+    width: 70px;
+    height: 70px;
+    margin-left: -20px;
+    border-radius: 7%;
+}
+
+.bottom
+{
+    width: 1000px;
+    position: relative;
+}
+
+.bottom .last 
+{
+    float: left;
+    position: absolute;
+    color: grey;
+    margin-top: 420px;
+    margin-left: 200px;
+}
+
+.bottom p
+{
+    margin-left: -210px;
+    margin-bottom: 20px;
+}

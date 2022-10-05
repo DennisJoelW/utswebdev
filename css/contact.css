@@ -1,0 +1,533 @@
+* {padding: 0; margin: 0;}
+
+/* ======================== MENU =======================  */
+
+nav
+{
+    background-color: white;
+    width: 1600px;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    margin: auto;
+}
+
+nav ul h1
+{
+    padding-bottom: 12px;
+    padding-right: 78px;
+    font-size: 35px;
+    float: left;
+}
+nav ul li
+{
+    float:left;
+    list-style: none;
+    font-size: 18px;
+}
+
+nav ul li a
+{
+    margin-right: 15px;
+    text-decoration: none;
+    color:black;
+    height: 100px;
+    padding: 12px;
+}
+
+h2
+{
+    font-size: 17px;
+    float: left;
+    padding-left: 250px;
+    padding-right: 40px;
+}
+
+.notelp
+{
+    font-size: 17px;
+    float: left;
+    padding-left: 250px;
+    margin-left: 150px;
+    padding-right: 40px;
+}
+
+nav ul li ul
+{
+    display: block;
+}
+
+.pages
+{
+    display: inline-block;
+    position: absolute;
+    left: 43%;
+    line-height: 50px;
+    padding-top: 24px;
+}
+
+.pages a, .blog a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.blog
+{
+    display: inline-block;
+    position: absolute;
+    left: 48%;
+    line-height: 50px;
+    padding-top: 24px;
+}
+
+.pgs, .blg
+{
+    display: none;
+    background-color: white;
+    width: 170px;
+    line-height: 40px;
+    padding: 12px 16px;
+    margin-left: -10px;
+    z-index: 1;
+}
+
+.apgs 
+{
+    font-size: 5px;
+}
+.pages:hover > .pgs
+{
+    display: block;
+}
+
+.blog:hover >.blg
+{
+    display: block;
+}
+
+.pages a:hover, .blog a:hover
+{
+    color:cadetblue;
+}
+
+.pgs, .blg
+{
+    display: none;
+    position: absolute;
+}
+
+img
+{   
+    padding-top: 20px;
+    float: left;
+    width: 60px;
+    height: 60px;
+    padding-left: 40px;
+}
+
+nav ul li ul li
+{
+    float: none;
+    position: absolute;
+}
+
+nav ul li a:hover
+{
+    color:cadetblue;
+}
+
+
+nav ul li ul li a
+{
+    background-color: white;
+    width: 190px;
+    float: none;
+    top: 0;
+    position: absolute;
+}
+
+nav ul li ul li
+{
+    top: 0;
+    width: 200px;
+} 
+
+nav .logo img
+{
+    width: 15px;
+    height: 15px;
+    padding-top: 41px;
+    margin-left: -15px;
+}
+
+nav .red
+{
+    height: 100px;
+    width: 100px;
+    margin-top: -20px;
+    float: left;
+    margin-left: 5px;
+}
+
+nav ul li ul li a
+{
+    width: 170px;
+    height:30px;
+    top: 0;
+}   
+
+/* ================================ MENU ================================== */
+
+
+/* =============================== FOTO TAMPILAN ====================================== */
+.fototampilan
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    height: max-content;
+}
+
+.centered 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    margin-top: 250px;
+    font-family: "Lucida Handwriting", "cursive";
+}
+.centered p
+{
+    margin-top: 8px;
+    font-size: 18px;
+    font-family: "Rubik",sans-serif;
+}
+.sg
+{
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin-left: -40px;
+    margin-top: -35px;
+    clip-path: inset(0px 0px 330px 0px);
+    position: relative;
+}
+/* =============================== FOTO TAMPILAN ====================================== */
+
+.bwhmap
+{
+    margin-left: 200px;
+    width: 1400px;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    float: left;
+}
+
+.kiri
+{
+    float: left;
+    width: 750px;
+    height: 500px;
+
+}
+
+.kiri button
+{
+    float: left;
+    width: 120px;
+    height: 50px;
+    margin-top: 40px;
+    background-color: #1ec6b6;
+    border: 1px solid #1ec6b6 ;
+    color: white;
+    font-family: "Rubik",sans-serif;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.kiri button:hover
+{
+    background-color: rgb(226, 76, 76);
+    border: 1px solid rgb(226, 76, 76) ;
+}
+
+.kiri h2
+{
+    float: left;
+    font-size: 30px;
+    margin-left: -250px;
+    margin-right: 160px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kiri textarea
+{
+    float: left;
+    margin-top: 18px;
+    padding-left: 8px;
+    padding-top: 8px;
+    margin-right: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kiri .tx1
+{
+    float: left;
+    margin-top: 15px;
+    width: 330px;
+    height: 42px;
+    padding-left: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kiri .tx2
+{
+    float: left;
+    margin-top: 15px;
+    width: 330px;
+    margin-left: 30px;
+    height: 42px;
+    padding-left: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.kiri .tx3
+{
+    float: left;
+    width: 702px;
+    margin-top: 15px;
+    height: 42px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 8px;
+}
+
+.bwhmap .kanan
+{
+    float: left;
+    width: 400px;
+    height: 500px;
+    padding-top: 23px;
+}
+
+.kanan .px1
+{
+    float: left;
+    margin-left: 45px;
+    padding-top: 10px;
+}
+
+.px1 img
+{
+    float: left;
+    width: 40px;
+    height: 40px;
+    padding-right: 6px;
+}
+
+.px1 h3
+{
+    float: left;
+    padding-top: 17px;
+    padding-left: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.px1 p
+{
+    float: left;
+    padding-left: 14px;
+    padding-top: 3px;
+    color: grey;
+}
+
+
+
+/* +============= FOOTER ===================+ */
+
+
+footer
+{
+    float: left;
+    width: 100%;
+    height: 510px;
+    padding-left: 200px;
+    background-color: rgb(25, 25, 57);
+    padding-top: 60px;
+}
+
+.top1
+{
+    width: 220px;
+    height: 300px;
+    float: left;
+}
+
+.top1 p
+{
+    float: left;
+    width: 220px;
+    color: grey;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 5px;
+
+}
+
+.top1 .traa
+{
+    width: 140px;
+    height: 44px;
+    float: left;
+    margin-left: -50px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.top1 a img
+{
+    width: 20px;
+    height: 20px;
+    margin-left: -32px;
+    margin-right: 20px;
+    margin-top: 27px;
+}
+
+.top2
+{
+    width: 220px;
+    height: 300px;
+    float: left;
+    margin-left: 130px;
+}
+
+.top2 h4
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.top2 a
+{
+    float: left;
+    width: 220px;
+    color: grey;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.top2 a:hover
+{
+    color: red;
+}
+
+.top3
+{
+    width: 220px;
+    height: 0px;
+    float: left;
+}
+
+.top3 h4
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.top3 a
+{
+    float: left;
+    width: 220px;
+    color: grey;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.top3 a:hover
+{
+    color: red;
+}
+
+.top3 .pd1
+{
+    float: left;
+    height: 50px;
+}
+
+.top3 .pd2
+{
+    float: left;
+    height: 50px;
+    margin-left: 130px;
+    margin-top: -50px;
+}
+
+.top4
+{
+    width: 320px;
+    height: 200px;
+    float: left;
+    margin-left: 300px;
+}
+
+.top4 h4
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding-right: 150px;
+    float: left;
+}
+
+.top4 .igfoot
+{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-left: -27px;
+    margin-top: -20px;
+}
+
+.top4 .igfoot img
+{
+    width: 70px;
+    height: 70px;
+    margin-left: -20px;
+    border-radius: 7%;
+}
+
+.bottom
+{
+    width: 1000px;
+    position: relative;
+}
+
+.bottom .last 
+{
+    float: left;
+    position: absolute;
+    color: grey;
+    margin-top: 420px;
+    margin-left: 200px;
+}
+
+.bottom p
+{
+    margin-left: -210px;
+    margin-bottom: 20px;
+}
