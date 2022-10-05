@@ -631,6 +631,7 @@ select
     font-size: 18px;
     margin-top: 110px;
     border: none;
+    text-decoration: none;
 }
 
 .subs input[name="mail"]
